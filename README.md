@@ -32,20 +32,20 @@ resistance, and a real .wav audio pass-through test.
 
 ## Results
 
-| Metric | Phase 1 (open-loop) | Phase 2 (closed-loop) | Spec |
-|---|---|---|---|
-| Differential gain | 92.3 dB | — | > 54 dB |
-| Closed-loop gain | — | ~20.9 | 18–22 |
-| CMRR | 118 dB | — | > 80 dB |
-| Output swing | 7.46 Vpp | 16+ Vpp | 6 Vpp / 16 Vpp |
-| THD (clean) | — | < 0.01% | < 0.08% |
-| THD (ref. noise injected) | — | *(verify from report)* | < 1% |
-| PSRR | — | *(verify from report)* | — |
-| Input resistance | 103 kΩ | > 100 MΩ | > 50 kΩ / 1 MΩ |
-| Output resistance | 3.9 kΩ | < 0.3 Ω | < 5 kΩ / 50 Ω |
-| Cost budget | 155 / 200 | 200 / 200 | ≤ 200 |
-
-*(Fill exact Phase-2 THD-under-noise and PSRR values from your submitted report before publishing — don't guess.)*
+| Metric | Phase 1 (Open-Loop) | Phase 2 (Closed-Loop) | Spec Target (Ph1 / Ph2) |
+| :--- | :--- | :--- | :--- |
+| **Differential Gain** | 92.3 dB | — | > 54 dB / — |
+| **Closed-Loop Gain** | — | 21 V/V | — / 18–22 V/V |
+| **CMRR** | 118 dB | — | > 80 dB / — |
+| **Output Swing** | 7.46 Vpp | 17 Vpp *(Bonus)* | > 6 Vpp / > 16 Vpp |
+| **THD (Clean)** | — | 0.0074% | — / < 0.08% |
+| **THD (Ref. Noise Injected)** | — | 0.039% | — / < 1% |
+| **PSRR** | — | 73.98 dB | — |
+| **Input Resistance** | 103 kΩ | 35.4 MΩ | > 50 kΩ / > 1 MΩ |
+| **Output Resistance** | 3.9 kΩ | 0.28 mΩ | < 5 kΩ / < 50 Ω |
+| **Output Stage Efficiency ($\eta_{out}$)**| — | 73.89% *(Bonus)* | — / > 60% *(Bonus: > 70%)* |
+| **Power Consumption** | 24 mW ($P_Q$) | 148.6 mW ($P_{total}$) | < 60 mW / $\le$ 190 mW |
+| **Cost Budget** | 155 | 200 | ≤ 200 |
 
 ## Simulation methodology notes
 
